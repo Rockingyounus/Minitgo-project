@@ -626,7 +626,7 @@ const [weatherData, setWeatherData] = useState(null);
                   <span className="fw-semibold">{weatherData}&deg;C</span>
                 </div>
                 <div>
-                  <p style={{ fontSize: "10px" }}>Location</p>
+                  <p style={{ fontSize: "1rem" }}>Location</p>
                 </div>
 
               </div>

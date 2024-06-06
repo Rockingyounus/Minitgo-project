@@ -107,7 +107,7 @@ export default function Catlog() {
               </ul>
             </div>
               {/* added [fontSize: "16px", textDecoration:"none" ,paddingTop:"2px",fontWeight:"bolder"] by sonali */}
-            <Link to={{ pathname: "/accessories", search: `?category=Accessories` }} style={{   color: "black", fontSize: "16px", textDecoration:"none" ,paddingTop:"2px", fontWeight:"bolder" }}>
+            <Link to={{ pathname: "/accessories", search: `?category=Accessories` }} style={{   color: "black", fontSize: "14px", textDecoration:"none" ,paddingTop:"2px", fontWeight:"bold" }}>
               <span className="mt-3 ">Fashion</span>
             </Link>
             <Link
@@ -115,39 +115,39 @@ export default function Catlog() {
                 pathname: "/mens-category",
                 search: `?category=Men's Fashion`,
               }}
-              style={{ color: "black", fontSize: "16px", textDecoration:"none" ,paddingTop:"2px",fontWeight:"bolder"}}
+              style={{ color: "black", fontSize: "14px", textDecoration:"none" ,paddingTop:"2px",fontWeight:"bold"}}
             > <span className="mt-1  ">Mens</span></Link>
             <Link
               to={{
                 pathname: "/womens-category",
                 search: `?category=Women's Fashion`,
               }}
-              style={{  color: "black", fontSize: "16px", textDecoration:"none" ,paddingTop:"2px",fontWeight:"bolder"  }}
+              style={{  color: "black", fontSize: "14px", textDecoration:"none" ,paddingTop:"2px",fontWeight:"bold"  }}
             ><span className="mt-1 ">Women's</span></Link>
             <Link
-              style={{ color: "black", fontSize: "16px", textDecoration:"none" ,paddingTop:"2px",fontWeight:"bolder"}}
+              style={{ color: "black", fontSize: "14px", textDecoration:"none" ,paddingTop:"2px",fontWeight:"bold"}}
             ><span className="mt-1 ">Kids</span></Link>
             <Link
               to={{
                 pathname: "/accessories",
                 search: `?category=Accessories`,
               }}
-              style={{ color: "black", fontSize: "16px", textDecoration:"none" ,paddingTop:"2px",fontWeight:"bolder"}}
+              style={{ color: "black", fontSize: "14px", textDecoration:"none" ,paddingTop:"2px",fontWeight:"bold"}}
             ><span className="mt-1 ">Other</span></Link>
             <Link
               to={{
                 pathname: "/accessories",
                 search: `?category=Accessories`,
               }}
-              style={{  color: "black", fontSize: "16px", textDecoration:"none" ,paddingTop:"2px",fontWeight:"bolder"}}
+              style={{  color: "black", fontSize: "14px", textDecoration:"none" ,paddingTop:"2px",fontWeight:"bold"}}
             >
-              <span className="mt-1 ">Best deals</span></Link>
+              <span className="mt-1">Best deals</span></Link>
             <Link
               to={{
                 pathname: "/accessories",
                 search: `?category=Accessories`,
               }}
-              style={{ color: "black", fontSize: "16px", textDecoration:"none" ,paddingTop:"2px",fontWeight:"bolder" }}
+              style={{ color: "black", fontSize: "14px", textDecoration:"none" ,paddingTop:"2px",fontWeight:"bold" }}
             > <span className="mt-1 ">Offers</span></Link>
           {/*  updated till this [fontSize: "16px", textDecoration:"none" ,paddingTop:"2px",fontWeight:"bolder"] by sonali */}
 

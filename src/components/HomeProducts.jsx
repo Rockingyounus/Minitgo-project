@@ -465,11 +465,11 @@ const HomeProducts = () => {
                               bottom: "15px",
                               right: "10px",
                               textDecorationColor: "HighlightText",
-                              border: "2px solid",
-                              borderRadius: "50px",
+                              // border: "2px solid",
+                              borderRadius: "2rem",
                               fontWeight: "bold",
-                              backgroundColor: product.offers === "0" ? "" : "#e8d9b7",
-                              opacity: product.offers === "0" ? 0 : 0.5,
+                              backgroundColor: product.offers === "0" ? "" : "#d9725f",
+                              opacity: product.offers === "0" ? 0 : 1,
                               
                           }}>
                       
